@@ -1,55 +1,59 @@
 # C-Sharp_Tasks
 
-[![Support Ukraine](https://badgen.net/badge/support/UKRAINE/?color=0057B8&labelColor=FFD700)](https://www.gov.uk/government/news/ukraine-what-you-can-do-to-help)
+[![Підтримати Україну](https://badgen.net/badge/support/UKRAINE/?color=0057B8&labelColor=FFD700)](https://www.gov.uk/government/news/ukraine-what-you-can-do-to-help)
 
-## Contribution
-1. Forking a repository
-2. Cloning a fork
-3. Making and pushing changes
-4. Making a pull request
+## Внесок у проєкт
+1. Форк репозиторію
+2. Клонування форку
+3. Внесення та відправлення змін
+4. Створення pull request
 
-## Forking a repository
-![ Forking a repository](https://docs.github.com/assets/cb-40742/mw-1440/images/help/repository/fork-button.webp)
-## Cloning a fork
-![ Forking a repository](https://docs.github.com/assets/cb-14601/mw-1440/images/help/repository/code-button.webp)
-## Making and pushing changes
-Some basic Git commands are:
-```
+## Форк репозиторію
+![Форк репозиторію](https://docs.github.com/assets/cb-40742/mw-1440/images/help/repository/fork-button.webp)
+
+## Клонування форку
+![Клонування форку](https://docs.github.com/assets/cb-14601/mw-1440/images/help/repository/code-button.webp)
+
+## Внесення та відправлення змін
+Основні команди Git:
+
 git status
 git add
 git commit
-```
-![ Forking a repository](https://marklodato.github.io/visual-git-guide/basic-usage.svg)
+
+![Основні команди Git](https://marklodato.github.io/visual-git-guide/basic-usage.svg)
 
 ### git add
-`git add file_name` - add file to stage(index)
+`git add file_name` – додає файл до індексу (stage)
 
-`git add .` - add all changes or new files to stage(index)
+`git add .` – додає всі зміни та нові файли до індексу (stage)
+
 ### git commit
-`git commit -m 'your commit message'` - create commit (create point in history project)
+`git commit -m 'ваше повідомлення'` – створює коміт (точку в історії проєкту)
 
-where -m says that you want to leave a message to commit
+де `-m` означає, що ви хочете додати повідомлення до коміту
 
-`git commit -am 'your commit message'` - create commit (create point in history project)
+`git commit -am 'ваше повідомлення'` – створює коміт (точку в історії проєкту)
 
-where -am means you want to add all changed files to the commit, use this instead of git add if you have no new files, only changed
+де `-am` означає, що ви хочете додати всі змінені файли до коміту.  
+Використовуйте це замість `git add`, якщо у вас немає нових файлів, лише змінені.
+
 ### git push
-`git push` - pushing your commit in your fork repository
+`git push` – відправляє ваш коміт у форк репозиторію
 
-all command in one line ->
+усі команди в одному рядку ->
 
-`git add . && git commit -m "your text" && git push`
+`git add . && git commit -m "ваш текст" && git push`
 
-## Making a pull request
+## Створення pull request
+Для цього перейдіть у репозиторій на GitHub, де знаходиться ваш проєкт.
 
-To do so, head on over to the repository on GitHub where your project lives. 
+Ви побачите банер із повідомленням, що ваша гілка на один коміт випереджає main.
 
-You'll see a banner indicating that your branch is one commit ahead of main.
+Натисніть Contribute, а потім Open a pull request.
 
-Click Contribute and then Open a pull request.
+GitHub перенаправить вас на сторінку, де буде показано відмінності між вашим форком і репозиторієм C-Sharp_Tasks.
 
-GitHub will bring you to a page that shows the differences between your fork and the C-Sharp_Tasks repository. 
+### Натисніть Create pull request.
 
-### Click Create pull request.
-
-anddddddd fan
+І… готово! 🎉
